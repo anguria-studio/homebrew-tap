@@ -10,6 +10,10 @@ Homebrew casks for apps by [Anguria Studio](https://anguria.studio).
 brew install --cask anguria-studio/tap/paguro
 ```
 
+Use the full name, as shown. Homebrew then trusts this one cask without an
+extra step. To use the short name `paguro` in later commands, trust the tap
+first with `brew trust anguria-studio/tap`.
+
 Paguro requires macOS 15 or later, on Apple silicon or Intel. The cask installs
 the same signed and notarized disk image that the
 [GitHub releases](https://github.com/anguria-studio/Paguro/releases) provide.
