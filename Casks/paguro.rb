@@ -1,6 +1,6 @@
 cask "paguro" do
-  version "1.1.2,21"
-  sha256 "f10279196e211cd0900ef056b3cc570f8980d31be3985724ae0a4bb6c3d25287"
+  version "1.1.3,22"
+  sha256 "b3798ad2defbc80185129234732ed38ea8226853006ef35707512a60d9aa2d0f"
 
   url "https://github.com/anguria-studio/Paguro/releases/download/v#{version.csv.first}/Paguro-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Paguro"
