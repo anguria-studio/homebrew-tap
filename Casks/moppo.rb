@@ -1,6 +1,6 @@
 cask "moppo" do
-  version "0.7.0,57"
-  sha256 "7dcf2f69136fbb28794f2849b333f9c0019af72d003338aaec03e0c2df1484d4"
+  version "0.7.1,58"
+  sha256 "9f54e560e9dd2aa69e586f12082cd53c938b05d2bc70646e0cc7cdbdb390bb69"
 
   url "https://github.com/anguria-studio/Moppo/releases/download/v#{version.csv.first}/Moppo-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Moppo"
