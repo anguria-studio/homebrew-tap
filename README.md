@@ -33,6 +33,18 @@ brew uninstall --cask anguria-studio/tap/moppo
 The cask preserves settings, History, and removal records.
 Removal records are necessary for Put Back.
 
+## Obolo
+
+[Obolo](https://github.com/anguria-studio/Obolo) tracks subscriptions, spending, and upcoming renewals.
+It runs on Apple silicon and Intel Macs with macOS 15 or later.
+
+```sh
+brew install --cask anguria-studio/tap/obolo
+```
+
+Obolo checks for updates through Sparkle. To update it through Homebrew, run
+`brew upgrade --cask --greedy anguria-studio/tap/obolo`.
+
 ## Paguro
 
 [Paguro](https://anguria.studio/paguro) is a native macOS workspace for web apps.
@@ -65,6 +77,8 @@ sign-in sessions, and your settings.
 
 Report a Moppo app problem in the
 [Moppo repository](https://github.com/anguria-studio/Moppo/issues).
+Report an Obolo app problem in the
+[Obolo repository](https://github.com/anguria-studio/Obolo/issues).
 Report a Paguro app problem in the
 [Paguro repository](https://github.com/anguria-studio/Paguro/issues).
 Report a cask problem in this repository.
