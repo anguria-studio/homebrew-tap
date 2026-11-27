@@ -1,6 +1,6 @@
 cask "obolo" do
-  version "1.0.0,1"
-  sha256 "783303ccc6fdbc2173bd8915ef72176c08aca59dbd4c72def844f407bd8d37cf"
+  version "1.0.1,2"
+  sha256 "00ecf94b4d4422de2daa8d21045a8380f47d3810a2b9e0a7dfc3e4bc9f85cc83"
 
   url "https://github.com/anguria-studio/Obolo/releases/download/v#{version.csv.first}/Obolo-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Obolo"
